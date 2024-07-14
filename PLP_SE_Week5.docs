@@ -1,0 +1,125 @@
+SE_Assignment-6
+Q1
+Python is a programming language.
+Its key features include: libraries, and interpretation. 
+Python is used in data science, and in machine learning models.
+
+Q2
+•  Download Python:
+•	Go to the official Python website.
+•	Download the latest Python installer.
+•  Run the Installer:
+•	Run the downloaded installer.
+•	Check the box that says "Add Python to PATH."
+•	Click "Install Now."
+•  Verify the Installation:
+•	Open Command Prompt.
+•	Type python --version and press Enter. You should see the installed Python version.\
+
+Q3
+print(‘hello world’)
+•  print: A built-in function that outputs text to the console.
+•  "Hello, World!": A string literal enclosed in double quotes.
+
+Q4
+Basic python data types:
+•	int: Integer numbers.
+•	float: Floating-point numbers.
+•	str: Strings (text).
+•	bool: Boolean values (True or False).
+•	list: Ordered collection of items.
+•	dict: Collection of key-value pairs.
+Example Script:
+# Integer
+age = 25
+print(age)
+
+# Float
+price = 19.99
+print(price)
+
+# String
+name = "John"
+print(name)
+
+# Boolean
+is_student = True
+print(is_student)
+
+# List
+numbers = [1, 2, 3, 4, 5]
+print(numbers)
+
+# Dictionary
+person = {"name": "Alice", "age": 30}
+print(person)
+
+Q5
+Conditional Statements (if-else):
+python
+Copy code
+age = 18
+
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+Loops (for loop):
+python
+Copy code
+for i in range(5):
+    print(i)
+
+Q6
+Functions are the reusable blocks of code in python that perform a specific task. 
+def Take_Two(num1, num2):
+	return num1+num2;
+print(Take_Two(1,2))
+
+Q7
+Differences:
+•	List: Ordered collection, accessed by index.
+•	Dictionary: Unordered collection, accessed by keys.
+Example Script:
+python
+Copy code
+# List
+numbers = [1, 2, 3, 4, 5]
+numbers.append(6)
+print(numbers)
+
+# Dictionary
+person = {"name": "Alice", "age": 30}
+person["city"] = "New York"
+print(person)
+
+Q8
+Exception handling allows a program to handle errors gracefully without crashing. 
+Example:
+try: 
+	x = 1/ 0
+except ZeroDivisionError:
+	print(“You cannot divide by zero”)
+finally:
+	prin(“This code runs always”)
+ 
+
+Q9
+Module: A single file containing Python code (e.g, math.py)
+Package: A collection of modules in a directory
+
+Importing a module:
+import math
+print (math.sqrt(9))
+
+q10
+with open(‘example.txt’, ‘r’) as file:
+	content = file.read()
+	print(content)
+
+with open(‘example.txt’, ‘w’) as file:
+	lines = [“Hello world”]
+	file.writelines(lines)
+	
+
+
